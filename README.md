@@ -23,8 +23,8 @@ yarn install && yarn start
         |   └── xxx.svg   # SVG source files
         |
         └── dist          # Output
-        ├── index.ts   # Entry, all icons will be exported in this file
-        └── xxx.tsx    # Output file, correspond to svg source file.
+            ├── index.ts  # Entry, all icons will be exported in this file
+            └── xxx.tsx   # Output file, correspond to svg source file.
     ```
 
 3.  Add configs
