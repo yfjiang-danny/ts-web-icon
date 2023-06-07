@@ -10,6 +10,7 @@
     "@types/node": "^16.18.34",
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
+    "kebab-case": "^1.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -17,10 +18,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
     "svgr": "rm -fr ./src/icons/dist/* && svgr ./src/icons/src --config-file svgrrc.js --svgo-config svgo.config.js"
   },
   "eslintConfig": {
@@ -42,7 +43,12 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
     "@svgr/cli": "^8.0.1",
-    "prettier": "^2.8.8"
+    "@types/webpack-env": "^1.18.1",
+    "prettier": "^2.8.8",
+    "svg-sprite-loader": "^6.0.11",
+    "svgo-loader": "^4.0.0"
   }
 }
