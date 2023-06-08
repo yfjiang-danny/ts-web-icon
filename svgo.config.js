@@ -11,6 +11,9 @@ module.exports = {
       },
     },
     {
+      name: "prefixIds",
+    },
+    {
       name: "removeAttrs", // Remove fill attr
       params: {
         attrs: "fill",

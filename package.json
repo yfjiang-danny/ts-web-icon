@@ -22,7 +22,9 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
-    "svgr": "rm -fr ./src/icons/dist/* && svgr ./src/icons/src --config-file svgrrc.js --svgo-config svgo.config.js"
+    "svgr": "yarn svgr1 && yarn svgr2",
+    "svgr1": "rm -fr ./src/icons/dist/normal/* && svgr ./src/icons/src/normal -d ./src/icons/dist/normal --config-file svgrrc.js --svgo-config svgo.config.js",
+    "svgr2": "rm -fr ./src/icons/dist/colorful/* && svgr ./src/icons/src/colorful -d ./src/icons/dist/colorful --config-file svgrrc.js --svgo-config svgo.colorful.config.js"
   },
   "eslintConfig": {
     "extends": [

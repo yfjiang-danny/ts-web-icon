@@ -9,5 +9,3 @@ export { default as Lines } from "./lines";
 export { default as Network } from "./network";
 export { default as Pie } from "./pie";
 export { default as Process } from "./process";
-export { default as React } from "./react";
-export { default as ThumbStar } from "./thumb-star";

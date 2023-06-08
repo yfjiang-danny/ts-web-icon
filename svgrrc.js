@@ -5,6 +5,5 @@ module.exports = {
   ref: true,
   expandProps: true,
   filenameCase: "kebab",
-  outDir: "src/icons/dist",
   svgoConfig: "svgo.config.js",
 };
