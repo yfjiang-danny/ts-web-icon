@@ -1,2 +1,2 @@
-export { default as React } from "./react";
-export { default as ThumbStar } from "./thumb-star";
+export { default as SVGReact } from "./react";
+export { default as SVGThumbStar } from "./thumb-star";
